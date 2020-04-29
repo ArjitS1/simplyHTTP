@@ -6,7 +6,7 @@ You can use any class to make HTTP REQUESTS(GET,POST,PUT,DELETE,PATCH) to api.
 
 How to use these classes is shown below:
 
-##Using easyHTTP:
+## Using easyHTTP:
 
 1. Get Request:
 ```php
@@ -71,9 +71,9 @@ http.patch('https://jsonplaceholder.typicode.com/posts/1',patchData,
 		console.log(patch);
 	});
   ```
-  
+---------------------------------------------------------------------------------------------------------------------------
 
-##Using easyHTTP2 or easyHTTP3:
+## Using easyHTTP2 or easyHTTP3:
 
 Both classes will be used in the same way, only difference is that easyHTTP2 uses Promises while easyHTTP3 uses Async/Await
 
