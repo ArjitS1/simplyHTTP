@@ -8,7 +8,7 @@ How to use these classes is shown below:
 
 ## Using easyHTTP:
 
-1. Get Request:
+**1. Get Request:**
 ```php
 const http = new easyHTTP;
 
@@ -17,7 +17,7 @@ function(posts){
 	console.log(posts);
 });
 ```
-2. Post Request
+**2. Post Request**
 ```php
 const http = new easyHTTP;
 
@@ -32,7 +32,7 @@ http.post('https://jsonplaceholder.typicode.com/posts',data,
 		console.log(post);
 	});
   ```
-3. Put Request(Updating data on server)
+**3. Put Request(Updating data on server)**
 ```php
 const http = new easyHTTP;
 
@@ -47,7 +47,7 @@ http.put('https://jsonplaceholder.typicode.com/posts/1',data,
 		console.log(post);
 	});
   ```
-4. Delete Request
+**4. Delete Request**
 ```php
 const http = new easyHTTP;
 
@@ -57,7 +57,7 @@ function(response){
 	console.log(response);
 });
   ```
-5. Patch Request(A small patch on existing data)
+**5. Patch Request(A small patch on existing data)**
 ```php
 const http = new easyHTTP;
 
@@ -77,7 +77,7 @@ http.patch('https://jsonplaceholder.typicode.com/posts/1',patchData,
 
 Both classes will be used in the same way, only difference is that easyHTTP2 uses Promises while easyHTTP3 uses Async/Await
 
-1. Get Request:
+**1. Get Request:**
 ```php
 const http = new easyHTTP2;//can also use easyHTTP3
 
@@ -85,7 +85,7 @@ http.get("https://jsonplaceholder.typicode.com/users")
 	.then(data => console.log(data))
 	.catch(err => console.log(err));
 ```
-2. Post Request
+**2. Post Request**
 ```php
 const http = new easyHTTP2;//can also use easyHTTP3
 
@@ -99,7 +99,7 @@ http.post('https://jsonplaceholder.typicode.com/users',data)
 	.then(data => console.log(data))
 	.catch(err => console.log(err));
   ```
-3. Put Request(Updating data on server)
+**3. Put Request(Updating data on server)**
 ```php
 const http = new easyHTTP2;//can also use easyHTTP3
 
@@ -113,7 +113,7 @@ http.put('https://jsonplaceholder.typicode.com/users/2',data)
 	.then(data => console.log(data))
 	.catch(err => console.log(err));
   ```
-4. Delete Request
+**4. Delete Request**
 ```php
 const http = new easyHTTP2;//can also use easyHTTP3
 
@@ -122,7 +122,7 @@ http.delete('https://jsonplaceholder.typicode.com/users/2')
 	.catch(err => console.log(err));
 });
   ```
-5. Patch Request(A small patch on existing data)
+**5. Patch Request(A small patch on existing data)**
 ```php
 const http = new easyHTTP2;//can also use easyHTTP3
 
