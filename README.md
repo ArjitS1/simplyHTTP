@@ -133,5 +133,5 @@ http.patch('https://jsonplaceholder.typicode.com/users/2',patchData)
 	.then(data => console.log(data))
 	.catch(err => console.log(err));
   ```
-
-  
+----------------------------------------------------------------------------------------------------------------------
+Referrence - This library was built using [Brad Traversy's Course](https://www.udemy.com/course/modern-javascript-from-the-beginning/).
